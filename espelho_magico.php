@@ -12,3 +12,11 @@ echo strrev($texto);
 $textoOriginal = "gadotti";
 $textoInvertido = inverterTexto($textoOriginal);
 $quantidade = mb_strlen($textoOriginal, 'UTF-8');
+
+
+echo "O texto invertido ficou: ".$textoInvertido ;
+echo "<br>A quantidade total de caracteres é:".$quantidade;
+
+
+
+?> 
